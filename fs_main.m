@@ -16,7 +16,7 @@ global algo_wrapper
 global algo_fs 
 
 large_small_cutoff = 100; % cut off for algo. parameters for large/ small datasets
-num_cv_reps  = 1;
+num_cv_reps  = 10;
 num_cv_folds = 5;
 
 if isempty(gcp) 
